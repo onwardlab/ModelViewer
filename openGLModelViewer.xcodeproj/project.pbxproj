@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23AF53214E3800400D0680C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AF53114E3800400D0680C /* UIKit.framework */; };
+		B23AF53414E3800400D0680C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AF53314E3800400D0680C /* Foundation.framework */; };
+		B23AF53614E3800400D0680C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AF53514E3800400D0680C /* CoreGraphics.framework */; };
+		B23AF53C14E3800400D0680C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B23AF53A14E3800400D0680C /* InfoPlist.strings */; };
+		B23AF53E14E3800400D0680C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF53D14E3800400D0680C /* main.m */; };
+		B23AF54214E3800400D0680C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF54114E3800400D0680C /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B23AF52D14E3800400D0680C /* openGLModelViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openGLModelViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23AF53114E3800400D0680C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B23AF53314E3800400D0680C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B23AF53514E3800400D0680C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B23AF53914E3800400D0680C /* openGLModelViewer-Info.plist */ = {isa = PBXFileReference; path = "openGLModelViewer-Info.plist"; sourceTree = "<group>"; };
+		B23AF53B14E3800400D0680C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B23AF53D14E3800400D0680C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B23AF53F14E3800400D0680C /* openGLModelViewer-Prefix.pch */ = {isa = PBXFileReference; path = "openGLModelViewer-Prefix.pch"; sourceTree = "<group>"; };
+		B23AF54014E3800400D0680C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B23AF54114E3800400D0680C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B23AF52A14E3800400D0680C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23AF53214E3800400D0680C /* UIKit.framework in Frameworks */,
+				B23AF53414E3800400D0680C /* Foundation.framework in Frameworks */,
+				B23AF53614E3800400D0680C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B23AF52214E3800400D0680C = {
+			isa = PBXGroup;
+			children = (
+				B23AF53714E3800400D0680C /* openGLModelViewer */,
+				B23AF53014E3800400D0680C /* Frameworks */,
+				B23AF52E14E3800400D0680C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23AF52E14E3800400D0680C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF52D14E3800400D0680C /* openGLModelViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B23AF53014E3800400D0680C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF53114E3800400D0680C /* UIKit.framework */,
+				B23AF53314E3800400D0680C /* Foundation.framework */,
+				B23AF53514E3800400D0680C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23AF53714E3800400D0680C /* openGLModelViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF54014E3800400D0680C /* AppDelegate.h */,
+				B23AF54114E3800400D0680C /* AppDelegate.m */,
+				B23AF53814E3800400D0680C /* Supporting Files */,
+			);
+			path = openGLModelViewer;
+			sourceTree = "<group>";
+		};
+		B23AF53814E3800400D0680C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF53914E3800400D0680C /* openGLModelViewer-Info.plist */,
+				B23AF53A14E3800400D0680C /* InfoPlist.strings */,
+				B23AF53D14E3800400D0680C /* main.m */,
+				B23AF53F14E3800400D0680C /* openGLModelViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23AF52C14E3800400D0680C /* openGLModelViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23AF54514E3800400D0680C /* Build configuration list for PBXNativeTarget "openGLModelViewer" */;
+			buildPhases = (
+				B23AF52914E3800400D0680C /* Sources */,
+				B23AF52A14E3800400D0680C /* Frameworks */,
+				B23AF52B14E3800400D0680C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openGLModelViewer;
+			productName = openGLModelViewer;
+			productReference = B23AF52D14E3800400D0680C /* openGLModelViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B23AF52414E3800400D0680C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Boredom;
+			};
+			buildConfigurationList = B23AF52714E3800400D0680C /* Build configuration list for PBXProject "openGLModelViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B23AF52214E3800400D0680C;
+			productRefGroup = B23AF52E14E3800400D0680C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23AF52C14E3800400D0680C /* openGLModelViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B23AF52B14E3800400D0680C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23AF53C14E3800400D0680C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B23AF52914E3800400D0680C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B23AF53E14E3800400D0680C /* main.m in Sources */,
+				B23AF54214E3800400D0680C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B23AF53A14E3800400D0680C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B23AF53B14E3800400D0680C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B23AF54314E3800400D0680C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B23AF54414E3800400D0680C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B23AF54614E3800400D0680C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openGLModelViewer/openGLModelViewer-Prefix.pch";
+				INFOPLIST_FILE = "openGLModelViewer/openGLModelViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B23AF54714E3800400D0680C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openGLModelViewer/openGLModelViewer-Prefix.pch";
+				INFOPLIST_FILE = "openGLModelViewer/openGLModelViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B23AF52714E3800400D0680C /* Build configuration list for PBXProject "openGLModelViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23AF54314E3800400D0680C /* Debug */,
+				B23AF54414E3800400D0680C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23AF54514E3800400D0680C /* Build configuration list for PBXNativeTarget "openGLModelViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23AF54614E3800400D0680C /* Debug */,
+				B23AF54714E3800400D0680C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B23AF52414E3800400D0680C /* Project object */;
+}
