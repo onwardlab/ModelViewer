@@ -6,7 +6,8 @@ OpenGL Model Viewer
 
 Blender
 =======
-export as "Objective C Header (.h)
+export as "Objective C Header (.h)"
+--Uses blender/objc_Export.py
 
 Obj C Model Gen Fcns
 ====================
