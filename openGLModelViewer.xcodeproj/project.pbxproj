@@ -13,6 +13,14 @@
 		B23AF53C14E3800400D0680C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B23AF53A14E3800400D0680C /* InfoPlist.strings */; };
 		B23AF53E14E3800400D0680C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF53D14E3800400D0680C /* main.m */; };
 		B23AF54214E3800400D0680C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF54114E3800400D0680C /* AppDelegate.m */; };
+		B23AF54A14E3803B00D0680C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AF54814E3803B00D0680C /* GLKit.framework */; };
+		B23AF54B14E3803B00D0680C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AF54914E3803B00D0680C /* OpenGLES.framework */; };
+		B23AF54D14E3804700D0680C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23AF54C14E3804700D0680C /* QuartzCore.framework */; };
+		B23AF55014E380EE00D0680C /* glViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF54F14E380EE00D0680C /* glViewController.m */; };
+		B23AF55814E39C1200D0680C /* geometricShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF55514E39C1200D0680C /* geometricShapes.m */; };
+		B23AF55914E39C1200D0680C /* geoVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF55714E39C1200D0680C /* geoVertex.m */; };
+		B23AF55C14E39C3900D0680C /* Vektor3.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF55B14E39C3900D0680C /* Vektor3.m */; };
+		B23AF57414E616E400D0680C /* Quaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = B23AF57314E616E400D0680C /* Quaternion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,28 @@
 		B23AF53114E3800400D0680C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B23AF53314E3800400D0680C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B23AF53514E3800400D0680C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B23AF53914E3800400D0680C /* openGLModelViewer-Info.plist */ = {isa = PBXFileReference; path = "openGLModelViewer-Info.plist"; sourceTree = "<group>"; };
+		B23AF53914E3800400D0680C /* openGLModelViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "openGLModelViewer-Info.plist"; sourceTree = "<group>"; };
 		B23AF53B14E3800400D0680C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B23AF53D14E3800400D0680C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B23AF53F14E3800400D0680C /* openGLModelViewer-Prefix.pch */ = {isa = PBXFileReference; path = "openGLModelViewer-Prefix.pch"; sourceTree = "<group>"; };
-		B23AF54014E3800400D0680C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B23AF53F14E3800400D0680C /* openGLModelViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openGLModelViewer-Prefix.pch"; sourceTree = "<group>"; };
+		B23AF54014E3800400D0680C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B23AF54114E3800400D0680C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B23AF54814E3803B00D0680C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B23AF54914E3803B00D0680C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B23AF54C14E3804700D0680C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B23AF54E14E380EE00D0680C /* glViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glViewController.h; sourceTree = "<group>"; };
+		B23AF54F14E380EE00D0680C /* glViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = glViewController.m; sourceTree = "<group>"; };
+		B23AF55414E39C1200D0680C /* geometricShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geometricShapes.h; path = "../../../myLib/iOS Libs/AllMine/geometricShapes.h"; sourceTree = "<group>"; };
+		B23AF55514E39C1200D0680C /* geometricShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = geometricShapes.m; path = "../../../myLib/iOS Libs/AllMine/geometricShapes.m"; sourceTree = "<group>"; };
+		B23AF55614E39C1200D0680C /* geoVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geoVertex.h; path = "../../../myLib/iOS Libs/AllMine/geoVertex.h"; sourceTree = "<group>"; };
+		B23AF55714E39C1200D0680C /* geoVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = geoVertex.m; path = "../../../myLib/iOS Libs/AllMine/geoVertex.m"; sourceTree = "<group>"; };
+		B23AF55A14E39C3900D0680C /* Vektor3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vektor3.h; sourceTree = "<group>"; };
+		B23AF55B14E39C3900D0680C /* Vektor3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vektor3.m; sourceTree = "<group>"; };
+		B23AF57214E616E400D0680C /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		B23AF57314E616E400D0680C /* Quaternion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quaternion.m; sourceTree = "<group>"; };
+		B29E381C153A602900A41995 /* vertexTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexTypes.h; sourceTree = "<group>"; };
+		B29E381E153A651B00A41995 /* pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pawn.h; sourceTree = "<group>"; };
+		B29E3826153A811000A41995 /* pawn2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pawn2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23AF54D14E3804700D0680C /* QuartzCore.framework in Frameworks */,
+				B23AF54A14E3803B00D0680C /* GLKit.framework in Frameworks */,
+				B23AF54B14E3803B00D0680C /* OpenGLES.framework in Frameworks */,
 				B23AF53214E3800400D0680C /* UIKit.framework in Frameworks */,
 				B23AF53414E3800400D0680C /* Foundation.framework in Frameworks */,
 				B23AF53614E3800400D0680C /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +89,9 @@
 		B23AF53014E3800400D0680C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B23AF54C14E3804700D0680C /* QuartzCore.framework */,
+				B23AF54814E3803B00D0680C /* GLKit.framework */,
+				B23AF54914E3803B00D0680C /* OpenGLES.framework */,
 				B23AF53114E3800400D0680C /* UIKit.framework */,
 				B23AF53314E3800400D0680C /* Foundation.framework */,
 				B23AF53514E3800400D0680C /* CoreGraphics.framework */,
@@ -72,8 +102,13 @@
 		B23AF53714E3800400D0680C /* openGLModelViewer */ = {
 			isa = PBXGroup;
 			children = (
+				B29E3819153A5F7800A41995 /* Models */,
+				B23AF55114E384DD00D0680C /* geometry */,
 				B23AF54014E3800400D0680C /* AppDelegate.h */,
 				B23AF54114E3800400D0680C /* AppDelegate.m */,
+				B23AF54E14E380EE00D0680C /* glViewController.h */,
+				B23AF54F14E380EE00D0680C /* glViewController.m */,
+				B23AF57114E616B400D0680C /* Mathematics */,
 				B23AF53814E3800400D0680C /* Supporting Files */,
 			);
 			path = openGLModelViewer;
@@ -88,6 +123,38 @@
 				B23AF53F14E3800400D0680C /* openGLModelViewer-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B23AF55114E384DD00D0680C /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF55414E39C1200D0680C /* geometricShapes.h */,
+				B23AF55514E39C1200D0680C /* geometricShapes.m */,
+				B23AF55614E39C1200D0680C /* geoVertex.h */,
+				B23AF55714E39C1200D0680C /* geoVertex.m */,
+				B29E381C153A602900A41995 /* vertexTypes.h */,
+			);
+			name = geometry;
+			sourceTree = "<group>";
+		};
+		B23AF57114E616B400D0680C /* Mathematics */ = {
+			isa = PBXGroup;
+			children = (
+				B23AF55A14E39C3900D0680C /* Vektor3.h */,
+				B23AF55B14E39C3900D0680C /* Vektor3.m */,
+				B23AF57214E616E400D0680C /* Quaternion.h */,
+				B23AF57314E616E400D0680C /* Quaternion.m */,
+			);
+			name = Mathematics;
+			sourceTree = "<group>";
+		};
+		B29E3819153A5F7800A41995 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B29E3826153A811000A41995 /* pawn2.h */,
+				B29E381E153A651B00A41995 /* pawn.h */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +221,11 @@
 			files = (
 				B23AF53E14E3800400D0680C /* main.m in Sources */,
 				B23AF54214E3800400D0680C /* AppDelegate.m in Sources */,
+				B23AF55014E380EE00D0680C /* glViewController.m in Sources */,
+				B23AF55814E39C1200D0680C /* geometricShapes.m in Sources */,
+				B23AF55914E39C1200D0680C /* geoVertex.m in Sources */,
+				B23AF55C14E39C3900D0680C /* Vektor3.m in Sources */,
+				B23AF57414E616E400D0680C /* Quaternion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +331,7 @@
 				B23AF54714E3800400D0680C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
